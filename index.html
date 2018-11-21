@@ -25,12 +25,12 @@
                 padding-right: 0px;
               }
               .bkgr{
-                background: linear-gradient(45deg, #F7BC6A, #FCA62D);  
-                
+                height: 100%;
+                background: linear-gradient(45deg, #FFE7D1, #FCA62D);
               }
       </style>
       <form name = "calculator">
-         
+         <div class = "bkgr"> 
          <table>
             <tr>
                <td colspan = "4">
@@ -68,6 +68,7 @@
                <td><input class = "button" type = "button" name = "doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
             </tr>
          </table>
+         </div>
       </form>
    </body>
    </head>
